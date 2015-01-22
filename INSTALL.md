@@ -1,4 +1,4 @@
-# README - Installation Instructions
+# INSTALL - Installation Instructions
 
 ---------------------------------
 
