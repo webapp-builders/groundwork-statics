@@ -1,6 +1,14 @@
-- name: Install NodeJS
+---
+
+- name: Install NodeJS and npm
   sudo: yes
   apt:  pkg={{ item }} state=latest
   with_items:
     - nodejs
+    - nodejs-legacy
     - npm
+
+- name: Install npm packagers
+  sudo: yes
+  command: npm install -g {{ item }}
+  with_items: npm_packages

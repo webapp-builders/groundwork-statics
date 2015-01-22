@@ -4,6 +4,14 @@
   vars:
     doc_root: /var/www/web
     ruby_version: 2.2.0
+    ruby_gems:
+      - sass
+      - compass
+    npm_packages:
+      - yo
+      - grunt
+      - bower
+      - gulp
   roles:
     - init
     - apache

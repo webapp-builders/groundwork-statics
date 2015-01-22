@@ -11,3 +11,9 @@
     sudo: no
     template: src=gemrc.j2 dest=~/.gemrc
 
+  - name: Install ruby gems
+    sudo: no
+    shell: "source ~/.bash_profile && gem install {{ item }}"
+    with_items: ruby_gems
+    args:
+      executable: /bin/bash

@@ -1,0 +1,7 @@
+---
+
+npm_packages:
+  - yo
+  - grunt
+  - bower
+  - gulp
