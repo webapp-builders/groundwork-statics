@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
 
     # Configure the network interfaces
-    config.vm.network :private_network, ip:    "33.33.33.33"
+    config.vm.network :private_network, ip:    "10.10.10.10"
     # default rails server port
     config.vm.network :forwarded_port,  guest: 3000,  host: 3000
     # Default postgresql port
