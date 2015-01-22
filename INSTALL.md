@@ -151,7 +151,7 @@ Your terminal prompt should change from your normal one.
 
 ---------------------------------
 
-#### If you want to use your own application (like the hartl tutorial, for example), do the necessary steps you do and skip to step 10.
+#### If you want to use your own application (like the hartl tutorial, for example), do the necessary steps you do and skip to step 10. If you are not using rails, then skip to Step 11.
 
 ---------------------------------
 
@@ -177,4 +177,12 @@ bundle install
 rails server -b 33.33.33.33
 ```
 
-Go to your browser and open http://33.33.33.33:3000
+Go to your browser and open http://10.10.10.10:3000
+
+---------------------------------
+
+## Step Eleven
+
+Your web directory is at application/html. 
+You can add/replace this with your own content.
+The site is accessible at http://10.10.10.10
