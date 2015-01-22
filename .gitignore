@@ -8,6 +8,7 @@
 
 # Ignore bundler config.
 /application/web/.bundle
+/application/html
 
 # Ignore the default SQLite database.
 /application/web/db/*.sqlite3
