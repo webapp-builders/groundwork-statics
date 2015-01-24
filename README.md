@@ -10,3 +10,9 @@ need to go to http://10.10.10.10 (the directory for that application would
 go into application/html).
 
 For installation/getting started, read INSTALL.md.
+
+NOTE: If you are running ubuntu, there is an issue with Apache not installing. The current workaround is to remove apache from ansible/site.yml and once you vagrant ssh into the server, you can have grunt start up a web server by running (inside your application directory):
+
+```
+  grunt serve
+```
